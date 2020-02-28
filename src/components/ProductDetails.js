@@ -9,7 +9,7 @@ export default class ProductDetails extends Component {
       rows.push(<ProductCard key={i}/>)
     }
     return (
-      <div className="row">
+      <div className="col-12 row">
         <div className="col-2 filter-margin">
           <FilterProduct/>
         </div>

@@ -16,7 +16,7 @@ export default class ProductCard extends Component {
                 </a>
               </div>
               <div className="card-body">
-                <h5 className="card-title">Savita Gore</h5>
+                <h5 className="card-title">Fruit</h5>
                 <h6 className="card-subtitle mb-2 text-muted">Style: VA33TXRJ5</h6>
                 <p className="card-text">
                   Fresh Apple Fresh Apple Fresh Apple Apple Fresh Apple Apple Fresh Apple... </p>
@@ -27,17 +27,11 @@ export default class ProductCard extends Component {
                       <option value="2">20</option>
                       <option value="3">30</option>
                   </select>
-                  {/* <select className="custom-select-sm ml-1">
-                      <option defaultValue>Size</option>
-                      <option value="1">41</option>
-                      <option value="2">42</option>
-                      <option value="3">43</option>
-                  </select> */}
+                <h5 className="price text-success ml-2">Rs. 125.99/-</h5>
                 </div>
-                <div className="d-flex justify-content-between align-items-center">
-                  <div className="price text-success"><h5 className="mt-4">Rs. 125.99/-</h5></div>
+                <div className="d-flex align-items-center">
                   <button className="btn-sm mt-3"><i className="fa fa-shopping-cart"></i> Add to Cart</button>
-                  <button className="btn-sm btn-danger mt-3"><i className="fa fa-check"></i> Buy Now</button>
+                  <button className="btn-sm btn-danger mt-3 ml-2"><i className="fa fa-check"></i> Buy Now</button>
                 </div>
               </div>
             </div>
